@@ -2,10 +2,13 @@
 // This code simply prints out the message "Hello World" to the console when it is executed.
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("Hello World")
+	data := HelloWorld()
+	fmt.Println(data)
+}
+
+func HelloWorld() string {
+	return "Hello World"
 }
