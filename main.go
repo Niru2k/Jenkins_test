@@ -6,6 +6,7 @@ import "fmt"
 
 func main() {
 	data := HelloWorld()
+	fmt.Println("Test changes")
 	fmt.Println(data)
 }
 
